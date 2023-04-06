@@ -1,5 +1,5 @@
 import React, { useState , useRef, useEffect} from 'react';
-import { color, motion , useMotionValueEvent, useScroll, useSpring, useTransform} from 'framer-motion/dist/framer-motion';
+import { color, motion , useMotionValueEvent, useScroll, useSpring, useTransform} from 'framer-motion';
 
 const Parallax = () => {
 

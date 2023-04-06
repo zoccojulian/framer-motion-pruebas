@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { motion, useInView } from 'framer-motion/dist/framer-motion';
+import { motion, useInView } from 'framer-motion';
 
 
 

@@ -1,7 +1,7 @@
 
 import './sass/app.scss';
 import React, { useState , useRef, useEffect} from 'react';
-import { color, motion , useMotionValueEvent, useScroll, useSpring, useTransform} from 'framer-motion/dist/framer-motion';
+import { color, motion , useMotionValueEvent, useScroll, useSpring, useTransform} from 'framer-motion';
 import Parallax from './component/Parallax';
 import InView from './component/InView';
 
