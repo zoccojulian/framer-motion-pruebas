@@ -24,7 +24,6 @@ const Parallax = () => {
         
     })
 
-
     return (
         <div className='container' >
             <motion.h1
