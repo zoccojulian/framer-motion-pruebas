@@ -8,10 +8,10 @@ const Parallax = () => {
     }
     const referencia = useRef(null);
     const {scrollYProgress} = useScroll({target: referencia})
-    const movimientoenX = useParallax(scrollYProgress,[1,0.7],'-50vw','0vw')
+    const movimientoenX = useParallax(scrollYProgress,[1,0.5],'-50vw','0vw')
     const [movX, setMovX] = useState('0vw');
 
-    const movimientoX2 = useParallax(scrollYProgress,[0.7,0.2],'50vw','0vw');
+    const movimientoX2 = useParallax(scrollYProgress,[1,0.5],'50vw','0vw');
     const [mov2x, setMov2x] = useState('0vw')
 
     // const scrollX = useSpring(scrollYProgress);
