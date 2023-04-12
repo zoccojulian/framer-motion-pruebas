@@ -6,6 +6,9 @@ import Parallax from './component/Parallax';
 import InView from './component/InView';
 import { TextField } from '@mui/material';
 import Lista from './component/Lista';
+import AnimacionK from './component/AnimacionK';
+import LayoutId from './component/LayoutId';
+import SelectId from './component/SelectId';
 
 
 function App() {
@@ -30,7 +33,10 @@ function App() {
     <div className='App'>
       <Parallax></Parallax>
       <InView></InView>
+      <LayoutId></LayoutId>
+      <SelectId></SelectId>
       <Lista></Lista>
+      <AnimacionK></AnimacionK>
     </div>
   );
 }

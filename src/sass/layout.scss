@@ -1,0 +1,25 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 2rem 0rem;
+
+    li{
+        padding: 0.5rem;
+        margin-right: 0.3rem;
+        position: relative;
+        cursor: pointer;
+
+        .underline{
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: black;
+        }
+        
+    }
+
+    
+}

@@ -21,7 +21,6 @@ const Lista = () => {
 
 
     return (
-
         <motion.div
             ref={container}
             style={
